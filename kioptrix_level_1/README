@@ -1,3 +1,0 @@
-SETUP:
-I had trouble changing that setting to NAT as it automatically switched back to Bridge so I opened the file in text editor, looked for "ethernet0.networkName" and changed the associated value to "nat"
-
