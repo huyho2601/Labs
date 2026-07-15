@@ -3,7 +3,7 @@
 **1.1 Host Discovery**
 First, I identified the the IP address of the Kioptrix machine by `sudo arp-scan -l`. Note that since I was running running on normal user, i needed to use `sudo`. This returned the IP address of Kioptrix machine: `192.168.85.130`
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 **1.2 Port Scanninb**
 To scan all open ports, I ran `nmap -T4 -p- -A 192.168.85.130`.
